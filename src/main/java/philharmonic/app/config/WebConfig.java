@@ -1,0 +1,11 @@
+package philharmonic.app.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+
+@Configuration
+@EnableWebMvc
+@ComponentScan(basePackages = {"philharmonic.app.controller"})
+public class WebConfig {
+}
