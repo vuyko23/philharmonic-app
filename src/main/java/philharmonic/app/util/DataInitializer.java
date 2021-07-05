@@ -1,7 +1,6 @@
 package philharmonic.app.util;
 
 import java.util.Set;
-
 import javax.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
 import philharmonic.app.model.Role;

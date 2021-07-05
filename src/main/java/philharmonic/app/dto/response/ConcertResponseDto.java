@@ -1,16 +1,16 @@
 package philharmonic.app.dto.response;
 
 public class ConcertResponseDto {
-    private Long Id;
+    private Long id;
     private String title;
     private String description;
 
     public Long getId() {
-        return Id;
+        return id;
     }
 
     public void setId(Long id) {
-        this.Id = id;
+        this.id = id;
     }
 
     public String getTitle() {
